@@ -16,3 +16,6 @@ state = gets.illinois
 state.upcase!
 
 puts "Your name is #{first_name} #{last_name} and you're from #{city}, #{state}!"
+side_a = 4 side_b = 8
+
+c2 = side_a2 + side_b2 h = Math.sqrt (c2)
