@@ -19,3 +19,29 @@ puts "Your name is #{first_name} #{last_name} and you're from #{city}, #{state}!
 side_a = 4 side_b = 8
 
 c2 = side_a2 + side_b2 h = Math.sqrt (c2)
+
+day = "wednesday"
+
+puts "Today is #{day}
+Solve the problem."
+
+
+puts "What is the diameter?"
+
+diameter = gets.to_i
+
+radius = diameter / 2
+
+puts "Your divided answer was #{radius}."
+if radius < 4*4
+puts "Good job!"
+else
+    puts "Try again"
+end
+
+
+
+
+
+
+
