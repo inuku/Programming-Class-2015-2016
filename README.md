@@ -32,10 +32,17 @@ diameter = gets.to_i
 
 radius = diameter / 2
 
+
 puts "Your divided answer was #{radius}."
 if radius < 4*4
 puts "Good job!"
 else
+
+puts "How many hours do you work?"
+hours = gets.to_i
+pay = gets.to_i
+weeks = gets.to_i
+income = hours * pay * weeks
     puts "Try again"
 end
 
